@@ -13,12 +13,17 @@ You need to install the next tools:
 * Docker ([installation with docker](#docker))
 * Docker-compose 1.27 (Only for docker-compose installation)
 https://docs.docker.com/compose/install/
- 
+
+### Clone
+
+```
+git clone https://github.com/darioaha/api-spoti.git apispoti
+```
 #### Docker
 
 1. Copy and modify env file
 ```
-cd apispoty
+cd apispoti
 cp .env.tmpl .env
 ```
 See [configuration](configuration.md)
@@ -58,7 +63,7 @@ docker run -d \
 #### Deploy Compose
 1. Copy and modify env file
 ```
-cd apispoty
+cd apispoti
 cp .env.tmpl .env
 ```
 See [configuration](configuration.md)
@@ -67,7 +72,8 @@ See [configuration](configuration.md)
 
 1. Run docker-compose up
 docker-compose definition include the following services
-- apispoti: Docker container for the api
+- 
+: Docker container for the api
 
 ```bash
 
