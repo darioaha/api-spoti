@@ -4,6 +4,8 @@
 SpotiApi is an API written in PHP to get albums from a band name. 
 The API exposes [two endpoints](services.md) /api/v1/albums and /api/v1/artists
 
+See [services documentation](services.md)
+
 ### SpotiApi
 
 ### Prerequisites 
